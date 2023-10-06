@@ -8,3 +8,5 @@ spring:
     properties:
       hibernate:
         globally_quoted_identifiers: true
+        create_empty_composites:
+          enabled: true
